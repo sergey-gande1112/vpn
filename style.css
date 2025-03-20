@@ -1,0 +1,45 @@
+body {
+    background: #121212;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #1e1e1e;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('images/vpn-bg.jpg') center/cover;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.feature {
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.feature:hover {
+    transform: scale(1.1);
+}
